@@ -1,0 +1,120 @@
+/*
+=============== 
+Variables
+===============
+*/
+
+:root {
+  --main-grey: #eae4e9;
+  --main-light-yellow: #fff1e6;
+  --main-yellow: #f0efeb;
+  --main-light-pink: #fde2e4;
+  --main-pink: #fad2e1;
+  --main-light-green: #e2ece9;
+  --main-green: #bee1e6;
+  --main-light-blue: #dfe7fd;
+  --main-blue: #cddafd;
+
+  --main-black: #222;
+  --main-white: #fff;
+
+  --transition: all 0.3s linear;
+  --spacing: 0.1rem;
+  --radius: 0.25rem;
+  --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  --max-width: 1170px;
+  --fixed-width: 620px;
+}
+/*
+=============== 
+Global Styles
+===============
+*/
+
+*,
+::after,
+::before {
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background: var(--main-light-blue);
+  color: var(--main-black);
+  line-height: 1.5;
+  font-size: 0.875rem;
+  cursor: default;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+hr {
+  border: none;
+  border-top: 1px solid var(--main-black);
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  letter-spacing: var(--spacing);
+  text-transform: capitalize;
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+}
+h1 {
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.5rem;
+}
+h4 {
+  font-size: 1.25rem;
+}
+h5 {
+  font-size: 0.875rem;
+}
+p {
+  margin-bottom: 1.25rem;
+  color: var(--main-black);
+}
+ul,
+li {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+@media screen and (max-width: 786px) {
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+  h4 {
+    font-size: 1.5rem;
+  }
+  h5 {
+    font-size: 1rem;
+  }
+  body {
+    font-size: 1rem;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    line-height: 1;
+  }
+}
