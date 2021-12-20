@@ -1,4 +1,4 @@
-import {BsGithub, BsInstagram} from 'react-icons/bs';
+import {BsGithub, BsInstagram, SiNotion} from '../icons/icons';
 
 const headerList = [
   {
@@ -32,13 +32,16 @@ const asideIcon = [
   {
     id: 1,
     href: 'https://github.com/mandy0529',
-
     icons: <BsGithub />,
   },
   {
     id: 2,
     href: 'https://splashy-chicken-6f1.notion.site/aa63baf113f24e46a2cefa4f297a9590',
-
+    icons: <SiNotion />,
+  },
+  {
+    id: 3,
+    href: 'https://www.instagram.com/mi_nzi/',
     icons: <BsInstagram />,
   },
 ];

@@ -13,6 +13,7 @@ const HeroWrapper = styled.div`
   }
   @media screen and (max-width: 991px) {
     margin-top: 15rem;
+    justify-content: center;
     h1 {
       font-size: 1.7rem;
     }

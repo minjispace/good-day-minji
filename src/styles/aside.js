@@ -5,7 +5,6 @@ const AsideWrapper = styled.aside`
     width: 30px;
     height: 30px;
     margin: 0 0.5rem;
-
     transition: all 0.3s ease-in-out;
   }
   ul {
@@ -13,7 +12,6 @@ const AsideWrapper = styled.aside`
     top: 30%;
     left: 3%;
     z-index: 1000;
-    background: white;
   }
 
   li {

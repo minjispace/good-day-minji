@@ -1,10 +1,11 @@
 import React from 'react';
 import {CanDoWrpper} from '../styles/cando';
+import {CANDO_IMG} from '../utils/images';
 
 function CanDo({id}) {
   return (
     <CanDoWrpper id={id}>
-      <h1>cando</h1>
+      <img src={CANDO_IMG} alt="can" />
     </CanDoWrpper>
   );
 }
