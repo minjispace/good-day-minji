@@ -2,7 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 
 function Contact({id}) {
-  console.log(id, 'id');
   return (
     <Wrapper id={id} className="curved-div">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">

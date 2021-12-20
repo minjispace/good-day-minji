@@ -1,15 +1,14 @@
 import React, {useState} from 'react';
-import {useEffect} from 'react';
-import {BsGithub, SiNotion} from '../icons/icons';
 import {AsideWrapper} from '../styles/aside';
-import {headerList} from '../utils/constant';
+import {asideIcon, headerList} from '../utils/constant';
+import {HEADER_IMG} from '../utils/images';
 
 const Aside = () => {
-  const [active, setActive] = useState(0);
-
+  const [active, setActive] = useState('');
   const handleClick = (e) => {
     e.preventDefault();
     const target = e.target.getAttribute('url');
+    setActive(target);
     const location = document.querySelector(target).offsetTop;
     window.scrollTo({
       left: 0,
@@ -17,37 +16,29 @@ const Aside = () => {
     });
   };
 
-  const onScroll = () => {
-    const height = window.scrollY;
-    if (height > 250) {
-      setActive(height);
-    } else {
-      setActive(0);
-    }
-  };
-
-  useEffect(() => {
-    window.addEventListener('scroll', onScroll);
-    return () => window.removeEventListener('scroll', onScroll);
-  }, []);
-
   return (
-    <AsideWrapper>
+    <AsideWrapper active={active}>
       <ul>
         {headerList.map((item) => {
           const {id, title, url} = item;
           return (
             <li url={url} key={id} onClick={handleClick}>
+              {active === url ? <img src={HEADER_IMG} alt="tree" /> : null}
               {title}
             </li>
           );
         })}
-        <li>
-          <BsGithub />
-        </li>
-        <li>
-          <SiNotion />
-        </li>
+
+        <div className="aside-icon">
+          {asideIcon.map((item) => {
+            const {id, href, icons} = item;
+            return (
+              <a key={id} href={href} target="_blank" rel="noreferrer">
+                <div className="icon">{icons}</div>
+              </a>
+            );
+          })}
+        </div>
       </ul>
     </AsideWrapper>
   );

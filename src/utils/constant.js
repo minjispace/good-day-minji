@@ -1,3 +1,5 @@
+import {BsGithub, BsInstagram} from 'react-icons/bs';
+
 const headerList = [
   {
     id: 1,
@@ -11,7 +13,7 @@ const headerList = [
   },
   {
     id: 3,
-    title: 'What Can I do',
+    title: 'CanDo',
     url: '#cando',
   },
   {
@@ -26,4 +28,18 @@ const headerList = [
   },
 ];
 
-export {headerList};
+const asideIcon = [
+  {
+    id: 1,
+    href: 'https://github.com/mandy0529',
+
+    icons: <BsGithub />,
+  },
+  {
+    id: 2,
+    href: 'https://splashy-chicken-6f1.notion.site/aa63baf113f24e46a2cefa4f297a9590',
+
+    icons: <BsInstagram />,
+  },
+];
+export {headerList, asideIcon};
