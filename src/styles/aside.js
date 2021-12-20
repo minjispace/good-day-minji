@@ -41,16 +41,25 @@ const AsideWrapper = styled.aside`
       transform: scale(1.08);
     }
   }
+  .aside-tree {
+    display: none;
+  }
   @media screen and (max-width: 991px) {
+    .aside-tree {
+      display: block;
+      position: absolute;
+      bottom: -3%;
+      z-index: -100;
+    }
     ul {
       top: 93%;
       display: grid;
       grid-template-columns: auto auto auto auto auto;
       left: 0;
       width: 100%;
-      height: 5rem;
+      /* height: 5rem;  */
       font-size: 2rem;
-      background: var(--main-brown);
+
       color: white;
     }
     li {
