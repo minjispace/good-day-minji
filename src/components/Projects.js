@@ -9,7 +9,16 @@ function Projects({id}) {
       <img className="project-img" src={PROJECTS_IMG} alt="projects=img" />
       <div className="projects-list">
         {projectList.map((item) => {
-          const {id, title, content, btn, img, href} = item;
+          const {
+            id,
+            title,
+            content,
+            viewBtn,
+            githubBtn,
+            viewLink,
+            githubLink,
+            img,
+          } = item;
           return (
             <ul key={id}>
               <li>
@@ -17,18 +26,12 @@ function Projects({id}) {
                   <h3>{title}</h3>
                   <p>{content}</p>
                   <div className="project-btns">
-                    {btn.map((item, index) => {
-                      return (
-                        <a
-                          href={href}
-                          key={index}
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          <button key={index}>{item}</button>
-                        </a>
-                      );
-                    })}
+                    <a href={viewLink} target="_blank" rel="noreferrer">
+                      <button>{viewBtn}</button>
+                    </a>
+                    <a href={githubLink} target="_blank" rel="noreferrer">
+                      <button>{githubBtn}</button>
+                    </a>
                   </div>
                 </div>
                 <img src={img} alt={title} />

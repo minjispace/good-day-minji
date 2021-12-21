@@ -1,12 +1,13 @@
 import React from 'react';
 import {AboutWrapper} from '../styles/about';
-import {HERO_IMG1} from '../utils/images';
+import {ABOUT_IMG, MINJI_IMG} from '../utils/images';
 
 function About({id}) {
   return (
     <AboutWrapper id={id}>
-      <h1>About me</h1>
-      <div className="hero__info">
+      {/* <h1>Good day, Minji</h1> */}
+      <img className="about-img" src={ABOUT_IMG} alt="about-img" />
+      <div className="about__info">
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam a ipsa
           veritatis reiciendis omnis nostrum eligendi labore quae veniam minus.
@@ -15,7 +16,7 @@ function About({id}) {
           accusamus molestias quaerat. Nulla necessitatibus aspernatur esse
           accusamus debitis itaque ut nesciunt excepturi minus?
         </p>
-        <img src={HERO_IMG1} alt="hero-img" />
+        <img className="about-profile" src={MINJI_IMG} alt="about-profile" />
       </div>
     </AboutWrapper>
   );

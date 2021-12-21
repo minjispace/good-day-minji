@@ -2,14 +2,20 @@ import styled from 'styled-components';
 
 const AboutWrapper = styled.div`
   min-height: 100vh;
-  text-align: center;
   display: grid;
   place-content: center;
   align-items: center;
+  margin: 9rem auto;
+  .about-img {
+    width: 750px;
+    margin: 2rem auto;
+  }
   h1 {
     font-size: 3.5rem;
+    font-family: 'Titillium Web', sans-serif;
+    margin: 2rem auto;
   }
-  .hero__info {
+  .about__info {
     max-width: 70%;
     margin: 5rem auto;
     display: grid;
@@ -25,19 +31,23 @@ const AboutWrapper = styled.div`
     }
   }
   @media screen and (max-width: 991px) {
+    margin: 5rem auto;
     h1 {
       font-size: 2.5rem;
     }
-    img {
-      width: 300px;
-      height: 250px;
+    .about-img {
+      width: 500px;
     }
-    .hero__info {
+    .about-profile {
+      height: 300px;
+    }
+    .about__info {
       max-width: 100%;
       grid-template-columns: auto;
       margin: 0 5rem;
       p {
         margin: 2rem;
+        font-size: 1.3rem;
       }
     }
   }

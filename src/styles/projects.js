@@ -4,10 +4,10 @@ const ProjectsWrapper = styled.div`
   min-height: 100vh;
   text-align: center;
   max-width: 50%;
-  margin: 8rem auto;
+  margin: 12rem auto;
 
   .project-img {
-    width: 800px;
+    width: 700px;
   }
   .projects-list {
     .projects-box {
@@ -66,14 +66,16 @@ const ProjectsWrapper = styled.div`
         margin: 5rem 0;
       }
       li {
+        grid-template-columns: auto;
         grid-column-gap: 2rem;
       }
       img {
         width: 200px;
+        margin: 2rem auto;
       }
       button {
         padding: 0.5rem 0.8rem;
-        font-size: 0.9rem;
+        font-size: 0.7rem;
         margin: 0 0.7rem;
       }
     }

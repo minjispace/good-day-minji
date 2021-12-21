@@ -111,18 +111,22 @@ const projectList = [
     title: '당당 마켓',
     content:
       ' 당근 마켓을 클론하여 내가 원하는 글을 작성하여 firebase 서버를 이용한 소통의 마켓 컨셉',
-    btn: ['View Project', 'Sour Code'],
+    viewBtn: 'View Project',
+    githubBtn: 'Source Code',
     img: 'assets/dang-market.png',
-    href: 'https://carrot-market-f0235.web.app/',
+    viewLink: 'https://carrot-market-f0235.web.app/',
+    githubLink: 'https://github.com/mandy0529/carrot-market',
   },
   {
     id: 2,
     title: '꿈 마켓',
     content:
       'server-less 를 이용해서 나만의 api를 만들어 몽환, 마니아층을 겨냥한 꿈마켓 컨셉',
-    btn: ['View Project', 'Sour Code'],
+    viewBtn: 'View Project',
+    githubBtn: 'Source Code',
     img: 'assets/dream-market.png',
-    href: 'https://dream-market.netlify.app/',
+    viewLink: 'https://dream-market.netlify.app/',
+    githubLink: 'https://github.com/mandy0529/dream-market',
   },
 ];
 export {headerList, asideIcon, candoList, projectList};

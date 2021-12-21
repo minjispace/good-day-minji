@@ -10,13 +10,12 @@ const ContactWrapper = styled.div`
   svg {
     display: block;
     position: absolute;
-    margin-top: 300px;
+    margin-top: 600px;
   }
 
   .contact-info {
     position: relative;
     text-align: center;
-    bottom: 0;
     margin: 0 9rem;
     img {
       width: 600px;
@@ -24,6 +23,9 @@ const ContactWrapper = styled.div`
     p {
       margin-top: -100px;
       font-size: 1.5rem;
+      max-width: 500px;
+      min-width: 500px;
+      margin: 4rem auto;
     }
   }
   @media screen and (max-width: 991px) {
@@ -35,7 +37,11 @@ const ContactWrapper = styled.div`
         display: none;
       }
       p {
-        margin-top: -200px;
+        margin-top: 60px;
+        font-size: 1.2rem;
+      }
+      img {
+        width: 400px;
       }
     }
     .contact-svg {

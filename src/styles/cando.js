@@ -4,7 +4,8 @@ const CanDoWrpper = styled.div`
   min-height: 100vh;
   text-align: center;
   max-width: 50%;
-  margin: 3rem auto;
+  margin: 12rem auto;
+
   img {
     width: 800px;
   }
@@ -12,8 +13,8 @@ const CanDoWrpper = styled.div`
     display: grid;
     grid-template-columns: auto auto auto;
     justify-content: center;
-    grid-column-gap: 7rem;
-    margin-top: 7rem;
+    grid-column-gap: 4rem;
+    margin-top: 4rem;
   }
 
   p {
