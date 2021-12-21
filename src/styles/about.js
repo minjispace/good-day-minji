@@ -25,8 +25,8 @@ const AboutWrapper = styled.div`
       margin-right: 3rem;
       font-size: 1.5rem;
       font-weight: 300;
-      min-width: 500px;
-      max-width: 800px;
+      min-width: 40rem;
+      max-width: 30rem;
       letter-spacing: 0.2rem;
     }
   }
@@ -48,6 +48,7 @@ const AboutWrapper = styled.div`
       p {
         margin: 2rem;
         font-size: 1.3rem;
+        min-width: 20rem;
       }
     }
   }

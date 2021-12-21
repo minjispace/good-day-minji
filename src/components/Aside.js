@@ -1,22 +1,22 @@
-import React, {useEffect, useState} from 'react';
+import React, {useState} from 'react';
 import {AsideWrapper} from '../styles/aside';
 import {asideIcon, headerList} from '../utils/constant';
 import {HEADER_IMG} from '../utils/images';
 
 const Aside = () => {
   const [active, setActive] = useState('#hero');
+
   const handleClick = (e) => {
     e.preventDefault();
     const target = e.target.getAttribute('url');
     setActive(target);
     const location = document.querySelector(target).offsetTop;
+
     window.scrollTo({
       left: 0,
       top: location,
     });
   };
-
-  useEffect(() => {}, []);
 
   return (
     <AsideWrapper active={active}>

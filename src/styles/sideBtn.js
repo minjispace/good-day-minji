@@ -4,13 +4,13 @@ const SideWrapper = styled.div`
   display: block;
   .arrowup {
     position: fixed;
-    bottom: 10px;
-    right: 10px;
+    top: 1%;
+    left: 95%;
     margin: 20px;
     padding-top: 5px;
     width: 60px;
     height: 60px;
-    transition: all 300ms linear;
+    transition: all 600ms linear;
     font-size: 30px;
     font-weight: bold;
     color: white;
@@ -18,15 +18,15 @@ const SideWrapper = styled.div`
     border: transparent;
     text-align: center;
     pointer-events: none;
-    opacity: 0;
     cursor: pointer;
     &:hover {
       transform: scale(0.95) rotate(10deg);
     }
   }
   .arrowup.active {
-    opacity: 1;
     pointer-events: auto;
+    top: 88%;
+    left: 95%;
   }
   @media screen and (max-width: 991px) {
     display: none;

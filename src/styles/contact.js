@@ -18,18 +18,18 @@ const ContactWrapper = styled.div`
     text-align: center;
     margin: 0 9rem;
     img {
-      width: 600px;
+      width: 35rem;
     }
     p {
       margin-top: -100px;
       font-size: 1.5rem;
-      max-width: 500px;
-      min-width: 500px;
+      max-width: 25rem;
+      min-width: 10rem;
       margin: 4rem auto;
     }
   }
   @media screen and (max-width: 991px) {
-    min-height: 80vh;
+    min-height: 60vh;
     .contact-info {
       top: -60px;
       margin: 0 5rem;
@@ -41,7 +41,7 @@ const ContactWrapper = styled.div`
         font-size: 1.2rem;
       }
       img {
-        width: 400px;
+        width: 20rem;
       }
     }
     .contact-svg {

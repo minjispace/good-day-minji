@@ -6,6 +6,7 @@ const HeaderWrapper = styled.div`
   letter-spacing: 0.2rem;
   font-family: 'Indie Flower', cursive;
   font-weight: bold;
+  width: 100vw;
 
   .header-empty {
     background: var(--main-green);

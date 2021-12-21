@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const ProjectsWrapper = styled.div`
+const ProjectsWrapper = styled.section`
   min-height: 100vh;
   text-align: center;
   max-width: 50%;
@@ -24,7 +24,8 @@ const ProjectsWrapper = styled.div`
       grid-column-gap: 6rem;
 
       p {
-        max-width: 200px;
+        max-width: 25rem;
+        min-width: 10rem;
         margin: 2rem auto;
         opacity: 0.6;
         letter-spacing: 0.2rem;
@@ -68,6 +69,9 @@ const ProjectsWrapper = styled.div`
       li {
         grid-template-columns: auto;
         grid-column-gap: 2rem;
+        p {
+          max-width: 25rem;
+        }
       }
       img {
         width: 200px;

@@ -114,3 +114,16 @@ li {
     line-height: 1;
   }
 }
+::-webkit-scrollbar {
+  width: 20px;
+  cursor: pointer;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--main-green);
+  border-radius: 10px;
+  border: 4px solid white;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--main-brown);
+}

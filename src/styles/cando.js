@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const CanDoWrpper = styled.div`
+const CanDoWrpper = styled.section`
   min-height: 100vh;
   text-align: center;
   max-width: 50%;
