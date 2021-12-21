@@ -71,6 +71,21 @@ const AsideWrapper = styled.aside`
       display: none;
     }
   }
+  @media screen and (max-width: 500px) {
+    .aside-tree {
+      bottom: 23%;
+    }
+    img {
+      width: 20px;
+      height: 20px;
+    }
+    ul {
+      top: 92%;
+    }
+    li {
+      font-size: 0.8rem;
+    }
+  }
 `;
 
 export {AsideWrapper};

@@ -24,7 +24,7 @@ const ProjectsWrapper = styled.section`
       grid-column-gap: 6rem;
 
       p {
-        max-width: 25rem;
+        max-width: 23rem;
         min-width: 10rem;
         margin: 2rem auto;
         opacity: 0.6;
@@ -81,6 +81,30 @@ const ProjectsWrapper = styled.section`
         padding: 0.5rem 0.8rem;
         font-size: 0.7rem;
         margin: 0 0.7rem;
+      }
+    }
+  }
+  @media screen and (max-width: 500px) {
+    margin: 8rem auto;
+    .project-img {
+      width: 290px;
+    }
+    .projects-list {
+      .projects-box {
+        min-width: 300px;
+      }
+      ul {
+        margin: 2rem 0;
+      }
+      li {
+        p {
+          /* max-width: 23rem;
+          min-width: 10rem; */
+          margin: 2rem;
+        }
+      }
+      img {
+        width: 200px;
       }
     }
   }

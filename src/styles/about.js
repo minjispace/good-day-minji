@@ -26,12 +26,12 @@ const AboutWrapper = styled.div`
       font-size: 1.5rem;
       font-weight: 300;
       min-width: 40rem;
-      max-width: 30rem;
+      max-width: 25rem;
       letter-spacing: 0.2rem;
     }
   }
   @media screen and (max-width: 991px) {
-    margin: 5rem auto;
+    margin: 10rem auto;
     h1 {
       font-size: 2.5rem;
     }
@@ -50,6 +50,27 @@ const AboutWrapper = styled.div`
         font-size: 1.3rem;
         min-width: 20rem;
       }
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .about-img {
+      width: 290px;
+    }
+    .about__info {
+      max-width: 100%;
+      margin: 1rem auto;
+
+      p {
+        margin: 0;
+        margin-left: 1rem;
+        font-size: 1rem;
+        min-width: 15rem;
+        max-width: 15rem;
+        letter-spacing: 0.2rem;
+      }
+    }
+    .about-profile {
+      height: 250px;
     }
   }
 `;

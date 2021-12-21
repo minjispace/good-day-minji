@@ -19,6 +19,14 @@ const HeroWrapper = styled.section`
       font-size: 1.7rem;
     }
   }
+  @media screen and (max-width: 500px) {
+    margin-top: 10rem;
+    h1 {
+      font-size: 1.3rem;
+      letter-spacing: 0.3rem;
+      line-height: 3rem;
+    }
+  }
 `;
 
 export {HeroWrapper};

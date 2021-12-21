@@ -18,7 +18,7 @@ const ContactWrapper = styled.div`
     text-align: center;
     margin: 0 9rem;
     img {
-      width: 35rem;
+      width: 500px;
     }
     p {
       margin-top: -100px;
@@ -41,11 +41,19 @@ const ContactWrapper = styled.div`
         font-size: 1.2rem;
       }
       img {
-        width: 20rem;
+        width: 500px;
       }
     }
     .contact-svg {
       display: none;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .contact-info {
+      img {
+        width: 220px;
+        margin: 0 auto;
+      }
     }
   }
 `;

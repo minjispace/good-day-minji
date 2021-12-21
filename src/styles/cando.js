@@ -46,6 +46,23 @@ const CanDoWrpper = styled.section`
   h3 {
     font-size: 1.3rem;
   }
+  @media screen and (max-width: 500px) {
+    margin: 9rem auto;
+    img {
+      width: 290px;
+    }
+    .cando__list {
+      grid-column-gap: 1rem;
+      margin-top: 0.5rem;
+      h3 {
+        margin-top: 0rem;
+        font-size: 1.1rem;
+      }
+      p {
+        font-size: 0.8rem;
+      }
+    }
+  }
 `;
 
 export {CanDoWrpper};
