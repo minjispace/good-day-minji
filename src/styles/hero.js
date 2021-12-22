@@ -7,7 +7,7 @@ const HeroWrapper = styled.section`
   height: 60vh;
   padding: 0 3rem;
   h1 {
-    font-size: 3rem;
+    font-size: 2.7rem;
     letter-spacing: 0.8rem;
     line-height: 4rem;
     font-family: 'Cairo', sans-serif;

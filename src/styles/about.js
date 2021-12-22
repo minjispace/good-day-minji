@@ -6,9 +6,23 @@ const AboutWrapper = styled.div`
   place-content: center;
   align-items: center;
   margin: 9rem auto;
+  p {
+    font-size: 1.3rem;
+    line-height: 3rem;
+    letter-spacing: 0.2rem;
+    max-width: 1100px;
+    text-align: right;
+  }
+  strong {
+    font-weight: bold;
+  }
   .about-img {
     width: 750px;
     margin: 2rem auto;
+  }
+  .about-mindmap {
+    z-index: -100;
+    width: 1000px;
   }
   h1 {
     font-size: 3.5rem;
@@ -17,45 +31,47 @@ const AboutWrapper = styled.div`
   }
   .about__info {
     max-width: 80%;
-    margin: 5rem auto;
+    margin: 0rem auto;
     display: grid;
     grid-template-columns: auto auto;
+    position: relative;
 
-    p {
-      margin-right: 3rem;
-      font-size: 1.5rem;
-      font-weight: 300;
-      min-width: 40rem;
-      max-width: 23rem;
-      letter-spacing: 0.2rem;
-    }
-    img {
+    .about-profile {
       height: 400px;
+      position: absolute;
+      left: 45%;
+      top: 30%;
     }
   }
   @media screen and (max-width: 991px) {
-    margin: 10rem auto;
+    margin: 7rem auto;
     h1 {
       font-size: 2.5rem;
     }
     .about-img {
       width: 500px;
     }
-    .about-profile {
-      height: 300px;
-    }
+
     .about__info {
       max-width: 100%;
       grid-template-columns: auto;
       margin: 0 5rem;
-      p {
-        margin: 2rem;
-        font-size: 1.3rem;
-        min-width: 20rem;
+      .about-profile {
+        height: 300px;
+        left: 40%;
       }
+    }
+    .about-mindmap {
+      width: 800px;
     }
   }
   @media screen and (max-width: 500px) {
+    p {
+      font-size: 0.8rem;
+      line-height: 1.5rem;
+      max-width: 800px;
+      margin: 0rem 3.1rem;
+    }
     .about-img {
       width: 290px;
     }
@@ -63,20 +79,13 @@ const AboutWrapper = styled.div`
       max-width: 100%;
       margin: 1rem auto;
 
-      p {
-        margin: 0;
-        margin-left: 1rem;
-        font-size: 1rem;
-        min-width: 15rem;
-        max-width: 15rem;
-        letter-spacing: 0.2rem;
-      }
-      img {
-        height: 200px;
+      .about-profile {
+        height: 120px;
+        left: 38%;
       }
     }
-    .about-profile {
-      height: 250px;
+    .about-mindmap {
+      width: 300px;
     }
   }
 `;

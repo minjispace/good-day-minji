@@ -9,15 +9,14 @@ function CanDo() {
 
   return (
     <CanDoWrpper id="candoContainer" ref={candoRef}>
-      <img src={CANDO_IMG} alt="can" />
+      <img className="cando-img" src={CANDO_IMG} alt="can" />
       <div className="cando__list">
         {candoList.map((item) => {
-          const {id, icon, title, content} = item;
+          const {id, src, title} = item;
           return (
             <ul key={id}>
-              <span className="cando-icon">{icon}</span>
-              <h3>{title}</h3>
-              <p>{content}</p>
+              <img className="cando-icon" src={src} alt={title} />
+              <p>{title}</p>
             </ul>
           );
         })}

@@ -2,7 +2,13 @@ import React from 'react';
 import useNav from '../hooks/useNav';
 import {ProjectsWrapper} from '../styles/projects';
 import {projectList} from '../utils/constant';
-import {PROJECTS_IMG} from '../utils/images';
+import {
+  FIREBASE,
+  PROJECTS_IMG,
+  REACT_IMG,
+  SERVER_LESS,
+  STYLED_COMPONENTS,
+} from '../utils/images';
 
 function Projects() {
   const projectsRef = useNav('projects');
@@ -21,23 +27,52 @@ function Projects() {
             viewLink,
             githubLink,
             img,
+            idea,
           } = item;
           return (
             <ul key={id}>
               <li>
                 <div className="projects-box">
                   <h3>{title}</h3>
-                  <p>{content}</p>
+                  <div className="project-type">
+                    <img
+                      className="project-language"
+                      src={REACT_IMG}
+                      alt="react"
+                    />
+                    {title === '당당 마켓 🥕' ? (
+                      <img
+                        className="project-language"
+                        src={FIREBASE}
+                        alt="firebase "
+                      />
+                    ) : (
+                      <img
+                        className="project-language"
+                        src={SERVER_LESS}
+                        alt="server-less "
+                      />
+                    )}
+                    <img
+                      className="project-language"
+                      src={STYLED_COMPONENTS}
+                      alt="styled-components"
+                    />
+                  </div>
+                  <p>✨{content}</p>
+                  <p className="idea">💡{idea}</p>
                   <div className="project-btns">
                     <a href={viewLink} target="_blank" rel="noreferrer">
-                      <button>{viewBtn}</button>
+                      <button>🎥 {viewBtn}</button>
                     </a>
                     <a href={githubLink} target="_blank" rel="noreferrer">
-                      <button>{githubBtn}</button>
+                      <button>📂 {githubBtn}</button>
                     </a>
                   </div>
                 </div>
-                <img src={img} alt={title} />
+                <a href={viewLink} rel="noreferrer" target="_blank">
+                  <img className="project-img" src={img} alt={title} />
+                </a>
               </li>
             </ul>
           );

@@ -1,17 +1,17 @@
+import {BsGithub, BsInstagram, SiNotion} from '../icons/icons';
 import {
-  BsGithub,
-  BsInstagram,
-  SiNotion,
-  BiMobileAlt,
-  CgDesignmodo,
-  SiReact,
-  DiGithub,
-  AiOutlineCloudServer,
-  SiFirebase,
-  HiOutlineDesktopComputer,
-  AiOutlineCodepen,
-  SiFreecodecamp,
-} from '../icons/icons';
+  CANVA,
+  CSS,
+  FIREBASE,
+  GITHUB,
+  HTML,
+  JS,
+  NOTION,
+  REACT_IMG,
+  SERVER_LESS,
+  STYLED_COMPONENTS,
+  VISUAL_CODE,
+} from './images';
 
 const headerList = [
   {
@@ -32,18 +32,18 @@ const headerList = [
     navLinkId: 'cando',
     scrollToId: 'candoContainer',
   },
-  // {
-  //   id: 4,
-  //   title: 'Projects',
-  //   navLinkId: 'projects',
-  //   scrollToId: 'projectsContainer',
-  // },
-  // {
-  //   id: 5,
-  //   title: 'Contact',
-  //   navLinkId: 'contact',
-  //   scrollToId: 'contactContainer',
-  // },
+  {
+    id: 4,
+    title: 'Projects',
+    navLinkId: 'projects',
+    scrollToId: 'projectsContainer',
+  },
+  {
+    id: 5,
+    title: 'Contact',
+    navLinkId: 'contact',
+    scrollToId: 'contactContainer',
+  },
 ];
 
 const asideIcon = [
@@ -62,73 +62,85 @@ const asideIcon = [
     href: 'https://www.instagram.com/mi_nzi/',
     icons: <BsInstagram />,
   },
-  {
-    id: 4,
-    href: 'https://codepen.io/mandy0529',
-    icons: <AiOutlineCodepen />,
-  },
-  {
-    id: 5,
-    href: 'https://www.freecodecamp.org/mi_nzi',
-    icons: <SiFreecodecamp />,
-  },
+  // {
+  //   id: 4,
+  //   href: 'https://codepen.io/mandy0529',
+  //   icons: <AiOutlineCodepen />,
+  // },
+  // {
+  //   id: 5,
+  //   href: 'https://www.freecodecamp.org/mi_nzi',
+  //   icons: <SiFreecodecamp />,
+  // },
 ];
 
 const candoList = [
   {
     id: 1,
-    icon: <HiOutlineDesktopComputer />,
-    title: 'Development',
-    content: 'HTML / CSS, javascript, 애니메이션',
+    src: HTML,
+    title: 'HTML',
   },
   {
     id: 2,
-    icon: <CgDesignmodo />,
-    title: 'Design',
-    content: 'react-icons, font-awesome, canva 를 이용한 디자인 가능',
+    src: CSS,
+    title: 'CSS',
   },
   {
     id: 3,
-    icon: <SiReact />,
-    title: 'React',
-    content:
-      'React, React hooks, Context, Reducer , Custom Hooks 자유롭게 사용 가능',
+    src: JS,
+    title: 'JavaScript',
   },
   {
     id: 4,
-    icon: <AiOutlineCloudServer />,
-    title: 'Server-less',
-    content:
-      '나만의 Api를 airtable 을 이용해서 server-less 데이터 접근하고, 이용 가능',
+    src: REACT_IMG,
+    title: 'React JS',
   },
   {
     id: 5,
-    icon: <SiFirebase />,
+    src: FIREBASE,
     title: 'Firebase',
-    content:
-      'Firebase 를 이용한 로그인, 데이터베이스, storage 를 이용해서 간접 리얼 타임 구현 가능',
   },
   {
     id: 6,
-    icon: <DiGithub />,
-    title: 'Control',
-    content: 'github, notion 을 이용한 내 저장 창고 관리 가능',
+    src: SERVER_LESS,
+    title: 'Server-less',
   },
   {
     id: 7,
-    icon: <BiMobileAlt />,
-    title: 'Responsive Website',
-    content: '반응형 웹사이트 html, js, react 가능',
+    src: GITHUB,
+    title: 'Github Control',
+  },
+  {
+    id: 8,
+    src: NOTION,
+    title: 'Notion ',
+  },
+  {
+    id: 9,
+    src: CANVA,
+    title: 'Canva Design',
+  },
+
+  {
+    id: 10,
+    src: VISUAL_CODE,
+    title: 'Visual Studio code',
+  },
+  {
+    id: 11,
+    src: STYLED_COMPONENTS,
+    title: 'Styled-Components',
   },
 ];
 
 const projectList = [
   {
     id: 1,
-    title: '당당 마켓',
+    title: '당당 마켓 🥕',
     content:
       ' 당근 마켓을 클론하여 내가 원하는 글을 작성하여 firebase 서버를 이용한 소통의 마켓 컨셉',
-    viewBtn: 'View Project',
+    idea: ' 아이디어 전략 ⇒  비대면 시국인 요즘, 당당하게 내 물건을 팔고, 다른 사람들이 팔 물건들을 보며 서로 조금이나마 소통하는 마켓을 당!당 하게 이용 할 수 있는 당근 마켓을 클론해서 나만의 스타일로 물건을 올릴 수 있는 소통의 장',
+    viewBtn: 'View Demo',
     githubBtn: 'Source Code',
     img: 'assets/dang-market.png',
     viewLink: 'https://carrot-market-f0235.web.app/',
@@ -136,10 +148,11 @@ const projectList = [
   },
   {
     id: 2,
-    title: '꿈 마켓',
+    title: '꿈 마켓 🌙',
     content:
       'server-less 를 이용해서 나만의 api를 만들어 몽환, 마니아층을 겨냥한 꿈마켓 컨셉',
-    viewBtn: 'View Project',
+    idea: '아이디어 전략 ⇒ 이 마켓을 들어온 모두가 꿈에서의 상상이 현실과 가까워지는 것을 느끼면서 하루의 소소하고 행복한 마음으로 살아갔으면 좋겠다는 마음으로 만들게 되었습니다.',
+    viewBtn: 'View Demo',
     githubBtn: 'Source Code',
     img: 'assets/dream-market.png',
     viewLink: 'https://dream-market.netlify.app/',

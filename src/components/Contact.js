@@ -23,10 +23,13 @@ function Contact() {
 
       <div className="contact-info">
         <img src={CONTACT_IMG} alt="contact-img" />
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In orci
-          lorem, porttitor nec vulputate sit amet, fermentum a purus....
-        </p>
+        <div className="p">
+          <div className="question">알찬 저의 하루를 더 듣고 싶으신가요 ?</div>
+          <div className="contact-title">Good day, Minji !</div>
+          💬 TELEPHONE : 010 . 2723 . 5455 <br />
+          ✉️ E-MAIL: 321963741@naver.com <br />
+          🗣  KAKAO ID : kmt0529 <br />
+        </div>
       </div>
     </ContactWrapper>
   );

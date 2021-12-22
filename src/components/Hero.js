@@ -6,11 +6,13 @@ function Hero() {
   return (
     <HeroWrapper>
       <h1>
-        Hello, World.
-        <br /> I'm Minji Kim . <br /> A creative
-        <br /> FrontEnd Developer <br />
-        Love Coding👩🏻‍💻 <br />
-        with Traveling🏕 wherever.
+        Hello, World🌏
+        <br /> Shoulda, Woulda, Coulda,
+        <br /> It didn't. 🙅🏻‍♀️ <br />
+        I will keep trying my best <br />
+        in everything <br />
+        for my dazzling daily life✨
+        <br />
       </h1>
     </HeroWrapper>
   );

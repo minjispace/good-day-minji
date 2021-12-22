@@ -6,6 +6,20 @@ const ProjectsWrapper = styled.section`
   max-width: 50%;
   margin: 12rem auto;
 
+  .project-type {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.5rem;
+  }
+  .project-language {
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 0.2rem;
+  }
+  .idea {
+    opacity: 0.6;
+  }
   .project-img {
     width: 700px;
   }
@@ -27,7 +41,6 @@ const ProjectsWrapper = styled.section`
         max-width: 23rem;
         min-width: 10rem;
         margin: 2rem auto;
-        opacity: 0.6;
         letter-spacing: 0.2rem;
         line-height: 2rem;
       }
@@ -35,9 +48,14 @@ const ProjectsWrapper = styled.section`
         font-weight: bold;
       }
     }
-    img {
+    .project-img {
       width: 300px;
       border-radius: 10px;
+      transition: all 400ms ease-in;
+      cursor: pointer;
+      &:hover {
+        transform: scale(0.8);
+      }
     }
 
     button {
@@ -73,7 +91,7 @@ const ProjectsWrapper = styled.section`
           max-width: 25rem;
         }
       }
-      img {
+      .project-img {
         width: 200px;
         margin: 2rem auto;
       }
@@ -86,6 +104,9 @@ const ProjectsWrapper = styled.section`
   }
   @media screen and (max-width: 500px) {
     margin: 8rem auto;
+    .project-language {
+      margin: 0.3rem;
+    }
     .project-img {
       width: 290px;
     }
@@ -103,7 +124,7 @@ const ProjectsWrapper = styled.section`
           margin: 2rem;
         }
       }
-      img {
+      .project-img {
         width: 200px;
       }
     }
