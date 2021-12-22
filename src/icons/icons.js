@@ -1,8 +1,18 @@
 import {GoThreeBars} from 'react-icons/go';
 import {BsGithub, BsInstagram} from 'react-icons/bs';
-import {SiNotion, SiReact, SiFirebase, SiJavascript} from 'react-icons/si';
+import {
+  SiNotion,
+  SiReact,
+  SiFirebase,
+  SiJavascript,
+  SiFreecodecamp,
+} from 'react-icons/si';
 import {DiCss3, DiResponsive, DiGithub} from 'react-icons/di';
-import {AiFillHtml5, AiOutlineCloudServer} from 'react-icons/ai';
+import {
+  AiFillHtml5,
+  AiOutlineCloudServer,
+  AiOutlineCodepen,
+} from 'react-icons/ai';
 import {GrPersonalComputer} from 'react-icons/gr';
 import {CgDesignmodo} from 'react-icons/cg';
 import {HiOutlineDesktopComputer} from 'react-icons/hi';
@@ -24,4 +34,6 @@ export {
   AiOutlineCloudServer,
   HiOutlineDesktopComputer,
   BiMobileAlt,
+  SiFreecodecamp,
+  AiOutlineCodepen,
 };

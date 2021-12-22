@@ -9,6 +9,8 @@ import {
   AiOutlineCloudServer,
   SiFirebase,
   HiOutlineDesktopComputer,
+  AiOutlineCodepen,
+  SiFreecodecamp,
 } from '../icons/icons';
 
 const headerList = [
@@ -30,18 +32,18 @@ const headerList = [
     navLinkId: 'cando',
     scrollToId: 'candoContainer',
   },
-  {
-    id: 4,
-    title: 'Projects',
-    navLinkId: 'projects',
-    scrollToId: 'projectsContainer',
-  },
-  {
-    id: 5,
-    title: 'Contact',
-    navLinkId: 'contact',
-    scrollToId: 'contactContainer',
-  },
+  // {
+  //   id: 4,
+  //   title: 'Projects',
+  //   navLinkId: 'projects',
+  //   scrollToId: 'projectsContainer',
+  // },
+  // {
+  //   id: 5,
+  //   title: 'Contact',
+  //   navLinkId: 'contact',
+  //   scrollToId: 'contactContainer',
+  // },
 ];
 
 const asideIcon = [
@@ -59,6 +61,16 @@ const asideIcon = [
     id: 3,
     href: 'https://www.instagram.com/mi_nzi/',
     icons: <BsInstagram />,
+  },
+  {
+    id: 4,
+    href: 'https://codepen.io/mandy0529',
+    icons: <AiOutlineCodepen />,
+  },
+  {
+    id: 5,
+    href: 'https://www.freecodecamp.org/mi_nzi',
+    icons: <SiFreecodecamp />,
   },
 ];
 

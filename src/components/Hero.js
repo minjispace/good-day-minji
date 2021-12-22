@@ -9,8 +9,8 @@ function Hero() {
         Hello, World.
         <br /> I'm Minji Kim . <br /> A creative
         <br /> FrontEnd Developer <br />
-        Love Coding <br />
-        with Traveling wherever.
+        Love Coding👩🏻‍💻 <br />
+        with Traveling🏕 wherever.
       </h1>
     </HeroWrapper>
   );
