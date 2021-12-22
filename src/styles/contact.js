@@ -16,7 +16,7 @@ const ContactWrapper = styled.div`
   .contact-info {
     position: relative;
     text-align: center;
-    margin: 0 9rem;
+    margin: 0 auto;
     img {
       width: 500px;
     }

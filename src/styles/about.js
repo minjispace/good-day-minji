@@ -16,7 +16,7 @@ const AboutWrapper = styled.div`
     margin: 2rem auto;
   }
   .about__info {
-    max-width: 70%;
+    max-width: 80%;
     margin: 5rem auto;
     display: grid;
     grid-template-columns: auto auto;
@@ -26,8 +26,11 @@ const AboutWrapper = styled.div`
       font-size: 1.5rem;
       font-weight: 300;
       min-width: 40rem;
-      max-width: 25rem;
+      max-width: 23rem;
       letter-spacing: 0.2rem;
+    }
+    img {
+      height: 400px;
     }
   }
   @media screen and (max-width: 991px) {
@@ -67,6 +70,9 @@ const AboutWrapper = styled.div`
         min-width: 15rem;
         max-width: 15rem;
         letter-spacing: 0.2rem;
+      }
+      img {
+        height: 200px;
       }
     }
     .about-profile {

@@ -5,7 +5,7 @@ const SideWrapper = styled.div`
   .arrowup {
     position: fixed;
     top: 1%;
-    left: 95%;
+    left: 94%;
     margin: 20px;
     padding-top: 5px;
     width: 60px;
@@ -26,7 +26,7 @@ const SideWrapper = styled.div`
   .arrowup.active {
     pointer-events: auto;
     top: 88%;
-    left: 95%;
+    left: 94%;
   }
   @media screen and (max-width: 991px) {
     display: none;
