@@ -1,10 +1,13 @@
 import React from 'react';
+import useNav from '../hooks/useNav';
 import {ContactWrapper} from '../styles/contact';
 import {CONTACT_IMG} from '../utils/images';
 
-function Contact({id}) {
+function Contact() {
+  const contactRef = useNav('contact');
+
   return (
-    <ContactWrapper id={id}>
+    <ContactWrapper id="contactContainer" ref={contactRef}>
       <svg
         className="contact-svg"
         xmlns="http://www.w3.org/2000/svg"

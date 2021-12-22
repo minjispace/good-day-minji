@@ -1,11 +1,14 @@
 import React from 'react';
+import useNav from '../hooks/useNav';
 import {ProjectsWrapper} from '../styles/projects';
 import {projectList} from '../utils/constant';
 import {PROJECTS_IMG} from '../utils/images';
 
-function Projects({id}) {
+function Projects() {
+  const projectsRef = useNav('projects');
+
   return (
-    <ProjectsWrapper id={id}>
+    <ProjectsWrapper id="projectsContainer" ref={projectsRef}>
       <img className="project-img" src={PROJECTS_IMG} alt="projects=img" />
       <div className="projects-list">
         {projectList.map((item) => {

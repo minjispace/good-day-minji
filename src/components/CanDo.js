@@ -1,11 +1,14 @@
 import React from 'react';
+import useNav from '../hooks/useNav';
 import {CanDoWrpper} from '../styles/cando';
 import {candoList} from '../utils/constant';
 import {CANDO_IMG} from '../utils/images';
 
-function CanDo({id}) {
+function CanDo() {
+  const candoRef = useNav('cando');
+
   return (
-    <CanDoWrpper id={id}>
+    <CanDoWrpper id="candoContainer" ref={candoRef}>
       <img src={CANDO_IMG} alt="can" />
       <div className="cando__list">
         {candoList.map((item) => {

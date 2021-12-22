@@ -3,17 +3,12 @@ import React, {useContext, useState} from 'react';
 const AppContext = React.createContext();
 
 const AppProvider = ({children}) => {
-  const [active, setActive] = useState('#hero');
+  const [activeNavLinkId, setActiveNavLinkId] = useState('');
 
-  const handleClick = (e) => {
-    e.preventDefault();
-    const target = e.target.getAttribute('url');
-    setActive(target);
-    const location = document.querySelector(target).offsetTop;
-
-    window.scrollTo({
-      left: 0,
-      top: location,
+  const handleClick = (scrollToId, navLinkId) => {
+    setActiveNavLinkId(navLinkId);
+    document.getElementById(scrollToId).scrollIntoView({
+      behavior: 'smooth',
     });
   };
 
@@ -29,8 +24,9 @@ const AppProvider = ({children}) => {
       value={{
         handleScrollTop,
         handleClick,
-        active,
-        setActive,
+
+        activeNavLinkId,
+        setActiveNavLinkId,
       }}
     >
       {children}

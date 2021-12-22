@@ -1,10 +1,13 @@
 import React from 'react';
+import useNav from '../hooks/useNav';
 
 import {HeaderWrapper} from '../styles/header';
 
-function Header({id}) {
+function Header() {
+  const homeRef = useNav('home');
+
   return (
-    <HeaderWrapper id={id}>
+    <HeaderWrapper id="homeContainer" ref={homeRef}>
       <div className="header-empty"></div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path

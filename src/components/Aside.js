@@ -1,22 +1,21 @@
 import React from 'react';
-import {useGlobalContext} from '../context/AppContext';
+import {Navbar} from '.';
 import {AsideWrapper} from '../styles/aside';
 import {asideIcon, headerList} from '../utils/constant';
-import {HEADER_IMG} from '../utils/images';
 
 const Aside = () => {
-  const {active, handleClick} = useGlobalContext();
-
   return (
-    <AsideWrapper active={active}>
+    <AsideWrapper>
       <ul>
         {headerList.map((item) => {
-          const {id, title, url} = item;
+          const {scrollToId, navLinkId} = item;
           return (
-            <li url={url} key={id} onClick={handleClick}>
-              {active === url ? <img src={HEADER_IMG} alt="tree" /> : null}
-              {title}
-            </li>
+            <Navbar
+              key={item.id}
+              navLinkId={navLinkId}
+              scrollToId={scrollToId}
+              {...item}
+            />
           );
         })}
 

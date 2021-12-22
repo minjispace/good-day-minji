@@ -13,14 +13,14 @@ import Aside from '../components/Aside';
 function Home() {
   return (
     <>
-      <Header id="hero" />
+      <Header />
       <Aside />
       <SideBtn />
       <Hero />
-      <About id="about" />
-      <CanDo id="cando" />
-      <Projects id="projects" />
-      <Contact id="contact" />
+      <About />
+      <CanDo />
+      <Projects />
+      <Contact />
     </>
   );
 }

@@ -15,28 +15,32 @@ const headerList = [
   {
     id: 1,
     title: 'Home',
-    url: '#hero',
+    navLinkId: 'home',
+    scrollToId: 'homeContainer',
   },
   {
     id: 2,
     title: 'About',
-    url: '#about',
+    navLinkId: 'about',
+    scrollToId: 'aboutContainer',
   },
   {
     id: 3,
     title: 'CanDo',
-    url: '#cando',
+    navLinkId: 'cando',
+    scrollToId: 'candoContainer',
   },
   {
     id: 4,
     title: 'Projects',
-    url: '#projects',
+    navLinkId: 'projects',
+    scrollToId: 'projectsContainer',
   },
   {
     id: 5,
     title: 'Contact',
-    url: '#contact',
-    navId: 'contact',
+    navLinkId: 'contact',
+    scrollToId: 'contactContainer',
   },
 ];
 

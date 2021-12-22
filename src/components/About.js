@@ -1,10 +1,13 @@
 import React from 'react';
+import useNav from '../hooks/useNav';
 import {AboutWrapper} from '../styles/about';
 import {ABOUT_IMG, MINJI_IMG} from '../utils/images';
 
-function About({id}) {
+function About() {
+  const aboutRef = useNav('about');
+
   return (
-    <AboutWrapper id={id}>
+    <AboutWrapper id="aboutContainer" ref={aboutRef}>
       <img className="about-img" src={ABOUT_IMG} alt="about-img" />
       <div className="about__info">
         <p>
