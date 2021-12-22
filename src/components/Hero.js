@@ -1,4 +1,5 @@
 import React from 'react';
+
 import {HeroWrapper} from '../styles/hero';
 
 function Hero() {

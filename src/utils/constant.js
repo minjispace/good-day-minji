@@ -36,6 +36,7 @@ const headerList = [
     id: 5,
     title: 'Contact',
     url: '#contact',
+    navId: 'contact',
   },
 ];
 

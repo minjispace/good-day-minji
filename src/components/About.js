@@ -5,7 +5,6 @@ import {ABOUT_IMG, MINJI_IMG} from '../utils/images';
 function About({id}) {
   return (
     <AboutWrapper id={id}>
-      {/* <h1>Good day, Minji</h1> */}
       <img className="about-img" src={ABOUT_IMG} alt="about-img" />
       <div className="about__info">
         <p>

@@ -1,22 +1,11 @@
-import React, {useState} from 'react';
+import React from 'react';
+import {useGlobalContext} from '../context/AppContext';
 import {AsideWrapper} from '../styles/aside';
 import {asideIcon, headerList} from '../utils/constant';
 import {HEADER_IMG} from '../utils/images';
 
 const Aside = () => {
-  const [active, setActive] = useState('#hero');
-
-  const handleClick = (e) => {
-    e.preventDefault();
-    const target = e.target.getAttribute('url');
-    setActive(target);
-    const location = document.querySelector(target).offsetTop;
-
-    window.scrollTo({
-      left: 0,
-      top: location,
-    });
-  };
+  const {active, handleClick} = useGlobalContext();
 
   return (
     <AsideWrapper active={active}>

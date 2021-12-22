@@ -1,8 +1,22 @@
-import React, {useContext} from 'react';
+import React, {useContext, useState} from 'react';
 
 const AppContext = React.createContext();
 
 const AppProvider = ({children}) => {
+  const [active, setActive] = useState('#hero');
+
+  const handleClick = (e) => {
+    e.preventDefault();
+    const target = e.target.getAttribute('url');
+    setActive(target);
+    const location = document.querySelector(target).offsetTop;
+
+    window.scrollTo({
+      left: 0,
+      top: location,
+    });
+  };
+
   const handleScrollTop = () => {
     window.scrollTo({
       top: 0,
@@ -11,7 +25,14 @@ const AppProvider = ({children}) => {
   };
 
   return (
-    <AppContext.Provider value={{handleScrollTop}}>
+    <AppContext.Provider
+      value={{
+        handleScrollTop,
+        handleClick,
+        active,
+        setActive,
+      }}
+    >
       {children}
     </AppContext.Provider>
   );
