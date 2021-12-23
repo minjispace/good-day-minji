@@ -95,32 +95,33 @@ const candoList = [
     src: REACT_IMG,
     title: 'React JS',
   },
+
   {
     id: 5,
-    src: FIREBASE,
-    title: 'Firebase',
-  },
-  {
-    id: 6,
-    src: SERVER_LESS,
-    title: 'Server-less',
-  },
-  {
-    id: 7,
     src: GITHUB,
     title: 'Github Control',
   },
   {
-    id: 8,
+    id: 6,
     src: NOTION,
     title: 'Notion ',
   },
   {
-    id: 9,
+    id: 7,
     src: CANVA,
     title: 'Canva Design',
   },
+  {
+    id: 8,
+    src: SERVER_LESS,
+    title: 'Server-less',
+  },
 
+  {
+    id: 9,
+    src: FIREBASE,
+    title: 'Firebase',
+  },
   {
     id: 10,
     src: VISUAL_CODE,
@@ -139,7 +140,7 @@ const projectList = [
     title: '당당 마켓 🥕',
     content:
       ' 당근 마켓을 클론하여 내가 원하는 글을 작성하여 firebase 서버를 이용한 소통의 마켓 컨셉',
-    idea: ' 아이디어 전략 ⇒  비대면 시국인 요즘, 당당하게 내 물건을 팔고, 다른 사람들이 팔 물건들을 보며 서로 조금이나마 소통하는 마켓을 당!당 하게 이용 할 수 있는 당근 마켓을 클론해서 나만의 스타일로 물건을 올릴 수 있는 소통의 장',
+    idea: ' 아이디어 전략 ⇒ 내 물건을 팔고, 다른 사람들이 팔 물건들을 보며 소통하는 마켓을 당!당 하게 이용 할 수 있는 당근 마켓을 클론해서 나만의 스타일로 !',
     viewBtn: 'View Demo',
     githubBtn: 'Source Code',
     img: 'assets/dang-market.png',
@@ -151,7 +152,7 @@ const projectList = [
     title: '꿈 마켓 🌙',
     content:
       'server-less 를 이용해서 나만의 api를 만들어 몽환, 마니아층을 겨냥한 꿈마켓 컨셉',
-    idea: '아이디어 전략 ⇒ 이 마켓을 들어온 모두가 꿈에서의 상상이 현실과 가까워지는 것을 느끼면서 하루의 소소하고 행복한 마음으로 살아갔으면 좋겠다는 마음으로 만들게 되었습니다.',
+    idea: '아이디어 전략 ⇒ 이 마켓을 들어온 모두가 꿈에서의 상상이 현실과 가까워지는 것을 느끼면서 하루의 소소하고 행복한 마음으로 마켓 이용',
     viewBtn: 'View Demo',
     githubBtn: 'Source Code',
     img: 'assets/dream-market.png',

@@ -18,7 +18,7 @@ const VISUAL_CODE =
 const CSS =
   'https://img.shields.io/badge/css%20-white.svg?&style=for-the-badge&logo=css3&logoColor=blue';
 const JS =
-  'https://img.shields.io/badge/javascript%20-white.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E';
+  'https://img.shields.io/badge/js%20-white.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E';
 
 const REACT_IMG =
   'https://img.shields.io/badge/react%20-white.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB';

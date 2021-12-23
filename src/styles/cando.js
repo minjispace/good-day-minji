@@ -13,7 +13,7 @@ const CanDoWrpper = styled.section`
     display: grid;
     grid-template-columns: auto auto auto;
     justify-content: center;
-    grid-column-gap: 5rem;
+    grid-column-gap: 3rem;
     margin-top: 4rem;
   }
 
