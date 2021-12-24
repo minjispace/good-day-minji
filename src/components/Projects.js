@@ -61,8 +61,8 @@ function Projects() {
                       alt="styled-components"
                     />
                   </div>
-                  <p>✨{content}</p>
-                  <p className="idea">💡{idea}</p>
+                  <p>✨ {content}</p>
+                  <p className="idea">💡 {idea}</p>
                   <div className="project-btns">
                     <a href={viewLink} target="_blank" rel="noreferrer">
                       <button>🎥 {viewBtn}</button>

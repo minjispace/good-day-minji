@@ -137,6 +137,17 @@ const candoList = [
 const projectList = [
   {
     id: 1,
+    title: 'Hello Word,Finder 🌏',
+    content: '세상에 모든 github user 들을 찾아보자!',
+    idea: '개발자라면 github 을 사용할 수 밖에 없기에 rest api 를 익히면서 나와 제일 친해야하고, 죽을 때까지 붙어있어야하는 github 을 컨텐츠로 미니멀한 single page app 구현',
+    viewBtn: 'View Demo',
+    githubBtn: 'Source Code',
+    img: 'assets/finder.png',
+    viewLink: 'https://hello-world-finder.netlify.app/',
+    githubLink: 'https://github.com/mandy0529/github-finder',
+  },
+  {
+    id: 2,
     title: '당당 마켓 🥕',
     content:
       ' 당근 마켓을 클론하여 내가 원하는 글을 작성하여 firebase 서버를 이용한 소통의 마켓 컨셉',
@@ -148,7 +159,7 @@ const projectList = [
     githubLink: 'https://github.com/mandy0529/carrot-market',
   },
   {
-    id: 2,
+    id: 3,
     title: '꿈 마켓 🌙',
     content:
       'server-less 를 이용해서 나만의 api를 만들어 몽환, 마니아층을 겨냥한 꿈마켓 컨셉',
@@ -158,17 +169,6 @@ const projectList = [
     img: 'assets/dream-market.png',
     viewLink: 'https://dream-market.netlify.app/',
     githubLink: 'https://github.com/mandy0529/dream-market',
-  },
-  {
-    id: 3,
-    title: 'Hello Word,Finder 🌏',
-    content: '세상에 모든 github user 들을 찾아보자!',
-    idea: '개발자라면 github 을 사용할 수 밖에 없기에 rest api 를 익히면서 나와 제일 친해야하고, 죽을 때까지 붙어있어야하는 github 을 컨텐츠로 미니멀한 single page app 구현',
-    viewBtn: 'View Demo',
-    githubBtn: 'Source Code',
-    img: 'assets/finder.png',
-    viewLink: 'https://hello-world-finder.netlify.app/',
-    githubLink: 'https://github.com/mandy0529/github-finder',
   },
 ];
 export {headerList, asideIcon, candoList, projectList};
