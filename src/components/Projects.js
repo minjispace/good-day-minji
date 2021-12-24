@@ -40,19 +40,21 @@ function Projects() {
                       src={REACT_IMG}
                       alt="react"
                     />
-                    {title === '당당 마켓 🥕' ? (
+                    {title === '당당 마켓 🥕' && (
                       <img
                         className="project-language"
                         src={FIREBASE}
                         alt="firebase "
                       />
-                    ) : (
+                    )}
+                    {title === '꿈 마켓 🌙' && (
                       <img
                         className="project-language"
                         src={SERVER_LESS}
                         alt="server-less "
                       />
                     )}
+
                     <img
                       className="project-language"
                       src={STYLED_COMPONENTS}

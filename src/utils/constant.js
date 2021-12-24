@@ -159,5 +159,16 @@ const projectList = [
     viewLink: 'https://dream-market.netlify.app/',
     githubLink: 'https://github.com/mandy0529/dream-market',
   },
+  {
+    id: 3,
+    title: 'Hello Word,Finder 🌏',
+    content: '세상에 모든 github user 들을 찾아보자!',
+    idea: '개발자라면 github 을 사용할 수 밖에 없기에 rest api 를 익히면서 나와 제일 친해야하고, 죽을 때까지 붙어있어야하는 github 을 컨텐츠로 미니멀한 single page app 구현',
+    viewBtn: 'View Demo',
+    githubBtn: 'Source Code',
+    img: 'assets/finder.png',
+    viewLink: 'https://hello-world-finder.netlify.app/',
+    githubLink: 'https://github.com/mandy0529/github-finder',
+  },
 ];
 export {headerList, asideIcon, candoList, projectList};
