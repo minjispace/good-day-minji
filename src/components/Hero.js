@@ -7,9 +7,9 @@ function Hero() {
     <HeroWrapper>
       <h1>
         Hello, World🌏
-        <br /> Shoulda, Woulda, Coulda,
-        <br /> It didn't. 🙅🏻‍♀️ <br />
-        I will keep trying my best <br />
+        <br /> Shoulda, Woulda, Coulda <br />
+        are didn't do anything. 🙅🏻‍♀️ 
+        <br /> I will keep trying my best <br />
         in everything <br />
         for my dazzling daily life✨
         <br />
