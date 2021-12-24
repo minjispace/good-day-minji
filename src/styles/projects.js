@@ -59,7 +59,7 @@ const ProjectsWrapper = styled.section`
     }
 
     button {
-      margin: 0 1.5rem;
+      margin: 0.5rem 1.5rem;
       background: var(--main-green);
       border-radius: 30px;
       outline: none;
