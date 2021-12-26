@@ -20,9 +20,7 @@ const ProjectsWrapper = styled.section`
   .idea {
     opacity: 0.6;
   }
-  .project-img {
-    width: 700px;
-  }
+
   .projects-list {
     .projects-box {
       min-width: 400px;
@@ -59,7 +57,8 @@ const ProjectsWrapper = styled.section`
       transition: all 400ms ease-in;
       cursor: pointer;
       &:hover {
-        transform: scale(0.9);
+        transform: scale(0.95);
+        opacity: 0.8;
       }
     }
 
