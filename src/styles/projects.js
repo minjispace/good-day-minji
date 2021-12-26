@@ -29,6 +29,11 @@ const ProjectsWrapper = styled.section`
     }
     ul {
       margin: 5rem 0;
+      padding: 5rem 10rem;
+      box-shadow: 0px 0px 62px -40px rgba(0, 0, 0, 0.75);
+      -webkit-box-shadow: 0px 0px 62px -40px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 0px 0px 62px -40px rgba(0, 0, 0, 0.75);
+      border-radius: 30px;
     }
     li {
       display: grid;
@@ -40,7 +45,7 @@ const ProjectsWrapper = styled.section`
       p {
         max-width: 23rem;
         min-width: 10rem;
-        margin: 2rem auto;
+        margin: 1rem auto;
         letter-spacing: 0.2rem;
         line-height: 2rem;
       }
@@ -54,7 +59,7 @@ const ProjectsWrapper = styled.section`
       transition: all 400ms ease-in;
       cursor: pointer;
       &:hover {
-        transform: scale(0.8);
+        transform: scale(0.9);
       }
     }
 
@@ -77,6 +82,7 @@ const ProjectsWrapper = styled.section`
   }
   @media screen and (max-width: 991px) {
     max-width: 100%;
+
     .project-img {
       width: 500px;
     }
@@ -89,6 +95,8 @@ const ProjectsWrapper = styled.section`
         grid-column-gap: 2rem;
         p {
           max-width: 25rem;
+          font-size: 0.7rem;
+          line-height: 1.5rem;
         }
       }
       .project-img {
@@ -110,17 +118,17 @@ const ProjectsWrapper = styled.section`
     .project-img {
       width: 290px;
     }
+
     .projects-list {
       .projects-box {
         min-width: 300px;
       }
       ul {
         margin: 2rem 0;
+        padding: 3rem 2rem;
       }
       li {
         p {
-          /* max-width: 23rem;
-          min-width: 10rem; */
           margin: 2rem;
         }
       }

@@ -24,7 +24,7 @@ const HeroWrapper = styled.section`
     h1 {
       font-size: 1.3rem;
       letter-spacing: 0.3rem;
-      line-height: 3rem;
+      line-height: 2rem;
     }
   }
 `;

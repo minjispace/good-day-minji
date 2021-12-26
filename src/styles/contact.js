@@ -51,6 +51,8 @@ const ContactWrapper = styled.div`
     }
   }
   @media screen and (max-width: 500px) {
+    margin-top: 13rem;
+
     .contact-info {
       img {
         width: 220px;
@@ -60,10 +62,12 @@ const ContactWrapper = styled.div`
         display: none;
       }
       .p {
+        margin: 0 auto;
         font-size: 0.8rem;
+        line-height: 2rem;
         .contact-title {
-          font-size: 1.4rem;
-          margin: 0.2rem;
+          font-size: 1.2rem;
+          margin: 1rem;
         }
       }
     }
