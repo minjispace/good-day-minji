@@ -14,7 +14,9 @@ function About() {
         <img className="about-profile" src={MINJI_IMG} alt="about-profile" />
       </div>
       <p>
-        저의 하루는 전날 밤 다음 하루의 <strong>계획</strong>을 세워요. <br />
+        저의 하루는,
+        <br /> 전날 밤에 다음 하루의 <strong>계획</strong>을 세우는 것부터
+        시작됩니다. <br />
         그리고 다음 날 <strong>약속</strong>된 <strong>시간</strong>에 맞춰
         나와,
         <br /> 맡은 업무에 <strong>책임감</strong>을 가지고,
