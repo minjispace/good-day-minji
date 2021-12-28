@@ -17,7 +17,7 @@ const AboutWrapper = styled.div`
     font-weight: bold;
   }
   .about-img {
-    width: 750px;
+    width: 900px;
     margin: 2rem auto;
   }
   .about-mindmap {

@@ -7,7 +7,7 @@ const CanDoWrpper = styled.section`
   margin: 25rem auto;
 
   .cando-img {
-    width: 750px;
+    width: 850px;
   }
   .cando__list {
     display: grid;
