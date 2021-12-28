@@ -28,15 +28,15 @@ const headerList = [
   },
   {
     id: 3,
-    title: 'I Can Do',
-    navLinkId: 'cando',
-    scrollToId: 'candoContainer',
-  },
-  {
-    id: 4,
     title: 'Projects',
     navLinkId: 'projects',
     scrollToId: 'projectsContainer',
+  },
+  {
+    id: 4,
+    title: 'Ability',
+    navLinkId: 'cando',
+    scrollToId: 'candoContainer',
   },
   {
     id: 5,
@@ -64,13 +64,13 @@ const asideIcon = [
   },
   // {
   //   id: 4,
-  //   href: 'https://codepen.io/mandy0529',
-  //   icons: <AiOutlineCodepen />,
+  //   href: 'https://www.freecodecamp.org/mi_nzi',
+  //   icons: <SiFreecodecamp />,
   // },
   // {
   //   id: 5,
-  //   href: 'https://www.freecodecamp.org/mi_nzi',
-  //   icons: <SiFreecodecamp />,
+  //   href: 'https://codepen.io/mandy0529',
+  //   icons: <AiOutlineCodepen />,
   // },
 ];
 

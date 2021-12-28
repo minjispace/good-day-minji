@@ -18,8 +18,8 @@ function Home() {
       <SideBtn />
       <Hero />
       <About />
-      <CanDo />
       <Projects />
+      <CanDo />
       <Contact />
     </>
   );
