@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="511px"
+	 height="511px" viewBox="0 0 511 511" enable-background="new 0 0 511 511" xml:space="preserve">
+<style type="text/css">
+	
+
+    @-webkit-keyframes grama {
+     
+		 0% { -webkit-transform: scale(.8); transform: scale(.8);}
+		 50% { -webkit-transform: scale(1); transform: scale(1);}
+		100% {-webkit-transform: scale(.8);transform: scale(.8);}
+	}
+	
+	.grama {
+        -webkit-animation: grama 3s ease-in-out infinite;
+        -moz-animation: grama 3s ease-in-out infinite;
+        -o-animation: grama 3s ease-in-out infinite;
+        animation: grama 3s ease-in-out infinite;
+        transform-origin: 50% 90%
+    }
+
+    @-webkit-keyframes tronco {
+      
+		 10% {opacity: 0; -webkit-transform: scale(0); transform: scale(0);}
+		 30% {opacity: 1; -webkit-transform: scale(1); transform: scale(1);}
+		100% {opacity: 1;-webkit-transform: scale(1);transform: scale(1);}
+	}
+	
+	.tronco {
+        -webkit-animation: tronco 3s ease-in-out;
+        -moz-animation: tronco 3s ease-in-out infinite;
+        -o-animation: tronco 3s ease-in-out infinite;
+        animation: tronco 3s ease-in-out infinite;
+        transform-origin: 50% 90%
+    }
+
+    @-webkit-keyframes arvore1 {
+      	5% {-webkit-transform: scale(0); transform: scale(0);}
+		 25% {-webkit-transform: scale(0); transform: scale(0);}
+		 45% {-webkit-transform: scale(1); transform: scale(1);}
+		100% {-webkit-transform: scale(1);transform: scale(1);}
+	}
+	
+	.arvore1 {
+        -webkit-animation: arvore1 3s ease-in-out;
+        -moz-animation: arvore1 3s ease-in-out infinite;
+        -o-animation: arvore1 3s ease-in-out infinite;
+        animation: arvore1 3s ease-in-out infinite;
+        transform-origin: 50% 75%
+    }
+
+    @-webkit-keyframes arvore2 {
+      	5% {-webkit-transform: scale(0); transform: scale(0);}
+		 28% {-webkit-transform: scale(0); transform: scale(0);}
+		 47% {-webkit-transform: scale(1); transform: scale(1);}
+		100% {-webkit-transform: scale(1);transform: scale(1);}
+	}
+	
+	.arvore2 {
+        -webkit-animation: arvore2 3s ease-in-out;
+        -moz-animation: arvore2 3s ease-in-out infinite;
+        -o-animation: arvore2 3s ease-in-out infinite;
+        animation: arvore2 3s ease-in-out infinite;
+        transform-origin: 50% 75%
+    }
+
+    @-webkit-keyframes sombras {
+      	0% {opacity: 0; }
+		 44% {opacity: 0;}
+		 52% {opacity: 1;}
+		100% {opacity: 1;}
+	}
+	
+	.sombras {
+        -webkit-animation: sombras 3s ease-in-out;
+        -moz-animation: sombras 3s ease-in-out infinite;
+        -o-animation: sombras 3s ease-in-out infinite;
+        animation: sombras 3s ease-in-out infinite;
+    }
+
+</style>
+<g id="BG" class="bg" >
+
+</g>
+<g id="Arvore_05" class="arvore2">
+	<circle fill="#66BC57" cx="221.982" cy="281.831" r="84.156"/>
+</g>
+<g id="Arvore_04" class="arvore1">
+	<circle fill="#66BC57" cx="201.152" cy="199.342" r="93.322"/>
+</g>
+<g id="Arvore_03" class="arvore2">
+	<circle fill="#66BC57" cx="252.395" cy="139.766" r="76.24"/>
+</g>
+<g id="Arvore_01" class="arvore1" >
+	<circle fill="#66BC57" cx="301.973" cy="264.334" r="89.989"/>
+</g>
+<g id="Arvore_02" class="arvore2">
+	<circle fill="#66BC57" cx="315.304" cy="163.513" r="69.992"/>
+</g>
+<g id="Sombra" class="sombras">
+	<path fill="#4F9E3F" d="M264.894,64.553c-4.067-0.671-8.241-1.028-12.499-1.028c-30.672,0-57.11,18.116-69.209,44.229
+		c-42.943,8.375-75.356,46.192-75.356,91.587c0,27.586,11.973,52.373,31.002,69.457c-0.661,4.248-1.005,8.6-1.005,13.032
+		c0,46.479,37.678,84.156,84.156,84.156c13.038,0,25.382-2.968,36.398-8.261v-9.566v-12.723c-10.271,2.648-21.644,2.56-33.799-3.182
+		c-16.462-7.774-28.391-23.577-30.007-41.711c-0.635-7.123,0.211-13.968,2.241-20.28c0.797-2.483-0.229-5.12-2.246-6.774
+		c-15.736-12.907-25.808-32.46-25.808-54.402c0-28.473,16.932-52.932,41.252-64.019c2.537-1.158,4.174-3.68,3.893-6.455
+		c-0.21-2.087-0.336-4.198-0.336-6.341C213.571,100.01,235.293,72.881,264.894,64.553z"/>
+</g>
+<g id="Tronco" class="tronco" >
+	<g>
+		<path fill="#AF6E5A" d="M245.578,337.115c-0.205,0-0.402-0.028-0.607-0.031l-5.793,121.656h38.409l-5.669-119.033
+			c-0.203-4.266-4.472-7.339-8.467-5.837C257.887,335.96,251.873,337.115,245.578,337.115z"/>
+		<path fill="#965A50" d="M271.917,339.707c-0.203-4.266-4.472-7.339-8.467-5.837c-5.563,2.09-11.577,3.245-17.872,3.245
+			c-0.205,0-0.402-0.028-0.607-0.029l-5.793,121.656h19.204v-104.21c0-2.757,1.765-5.202,4.377-6.072l9.427-3.143L271.917,339.707z"
+			/>
+	</g>
+</g>
+<g id="Grama" class="grama" >
+	<path fill="#4F9E3F" d="M290.387,465.142h-64.013c-3.535,0-6.401-2.863-6.401-6.401s2.866-6.402,6.401-6.402h64.013
+		c3.534,0,6.401,2.864,6.401,6.402S293.922,465.142,290.387,465.142z"/>
+</g>
+</svg>

@@ -16,19 +16,19 @@ import {
 const headerList = [
   {
     id: 1,
-    title: 'Home',
+    title: 'Good day',
     navLinkId: 'home',
     scrollToId: 'homeContainer',
   },
   {
     id: 2,
-    title: 'About',
+    title: 'About Me',
     navLinkId: 'about',
     scrollToId: 'aboutContainer',
   },
   {
     id: 3,
-    title: 'CanDo',
+    title: 'I Can Do',
     navLinkId: 'cando',
     scrollToId: 'candoContainer',
   },
@@ -137,7 +137,7 @@ const candoList = [
 const projectList = [
   {
     id: 1,
-    title: 'Hello Word,Finder 🌏',
+    title: 'Hello World, Finder 🌏',
     content: '세상에 모든 github user 들을 찾아보자!',
     idea: '개발자라면 github 을 사용할 수 밖에 없기에 rest api 를 익히면서 나와 제일 친해야하고, 죽을 때까지 붙어있어야하는 github 을 컨텐츠로 미니멀한 single page app 구현',
     viewBtn: 'View Demo',
