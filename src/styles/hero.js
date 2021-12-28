@@ -20,7 +20,7 @@ const HeroWrapper = styled.section`
     justify-content: center;
     flex-direction: column;
     img {
-      width: 130px;
+      width: 150px;
     }
     h1 {
       margin-top: 3rem;
