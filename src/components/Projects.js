@@ -31,51 +31,49 @@ function Projects() {
           } = item;
           return (
             <ul key={id}>
-              <li>
-                <div className="projects-box">
-                  <h3>{title}</h3>
-                  <div className="project-type">
+              <div className="projects-box">
+                <h3>{title}</h3>
+                <div className="project-type">
+                  <img
+                    className="project-language"
+                    src={REACT_IMG}
+                    alt="react"
+                  />
+                  {title === '당당 마켓 🥕' && (
                     <img
                       className="project-language"
-                      src={REACT_IMG}
-                      alt="react"
+                      src={FIREBASE}
+                      alt="firebase "
                     />
-                    {title === '당당 마켓 🥕' && (
-                      <img
-                        className="project-language"
-                        src={FIREBASE}
-                        alt="firebase "
-                      />
-                    )}
-                    {title === '꿈 마켓 🌙' && (
-                      <img
-                        className="project-language"
-                        src={SERVER_LESS}
-                        alt="server-less "
-                      />
-                    )}
+                  )}
+                  {title === '꿈 마켓 🌙' && (
+                    <img
+                      className="project-language"
+                      src={SERVER_LESS}
+                      alt="server-less "
+                    />
+                  )}
 
-                    <img
-                      className="project-language"
-                      src={STYLED_COMPONENTS}
-                      alt="styled-components"
-                    />
-                  </div>
-                  <p>✨ {content}</p>
-                  <p className="idea">💡 {idea}</p>
-                  <div className="project-btns">
-                    <a href={viewLink} target="_blank" rel="noreferrer">
-                      <button>🎥 {viewBtn}</button>
-                    </a>
-                    <a href={githubLink} target="_blank" rel="noreferrer">
-                      <button>📂 {githubBtn}</button>
-                    </a>
-                  </div>
+                  <img
+                    className="project-language"
+                    src={STYLED_COMPONENTS}
+                    alt="styled-components"
+                  />
                 </div>
-                <a href={viewLink} rel="noreferrer" target="_blank">
-                  <img className="project-img" src={img} alt={title} />
-                </a>
-              </li>
+                <p>✨ {content}</p>
+                <p className="idea">💡 {idea}</p>
+                <div className="project-btns">
+                  <a href={viewLink} target="_blank" rel="noreferrer">
+                    <button>🎥 {viewBtn}</button>
+                  </a>
+                  <a href={githubLink} target="_blank" rel="noreferrer">
+                    <button>📂 {githubBtn}</button>
+                  </a>
+                </div>
+              </div>
+              <a href={viewLink} rel="noreferrer" target="_blank">
+                <img className="project-img" src={img} alt={title} />
+              </a>
             </ul>
           );
         })}

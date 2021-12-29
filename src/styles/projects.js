@@ -3,7 +3,7 @@ import styled from 'styled-components';
 const ProjectsWrapper = styled.section`
   min-height: 100vh;
   text-align: center;
-  max-width: 50%;
+  max-width: 60%;
   margin: 12rem auto;
 
   .project-type {
@@ -26,31 +26,30 @@ const ProjectsWrapper = styled.section`
       min-width: 400px;
     }
     ul {
-      margin: 5rem 0;
+      margin: 5rem;
       padding: 5rem 10rem;
       box-shadow: 0px 0px 62px -40px rgba(0, 0, 0, 0.75);
       -webkit-box-shadow: 0px 0px 62px -40px rgba(0, 0, 0, 0.75);
       -moz-box-shadow: 0px 0px 62px -40px rgba(0, 0, 0, 0.75);
       border-radius: 30px;
-    }
-    li {
       display: grid;
       grid-template-columns: auto auto;
       align-items: center;
       justify-content: center;
       grid-column-gap: 6rem;
-
       p {
         max-width: 23rem;
-        min-width: 10rem;
+        min-width: 6rem;
         margin: 1rem auto;
         letter-spacing: 0.2rem;
         line-height: 2rem;
       }
-      h3 {
-        font-weight: bold;
-      }
     }
+
+    h3 {
+      font-weight: bold;
+    }
+
     .project-img {
       width: 300px;
       border-radius: 10px;
@@ -79,25 +78,41 @@ const ProjectsWrapper = styled.section`
       }
     }
   }
+  @media screen and (max-width: 1600px) {
+    max-width: 60%;
+    .projects-list {
+      ul {
+        margin: 2rem 0;
+        padding: 3rem 2rem;
+        grid-template-columns: auto;
+        grid-column-gap: 2rem;
+      }
+
+      .project-img {
+        margin-top: 3rem;
+      }
+    }
+  }
+
   @media screen and (max-width: 991px) {
     max-width: 100%;
-
     .project-img {
       width: 500px;
     }
     .projects-list {
       ul {
-        margin: 5rem 0;
-      }
-      li {
+        margin: 2rem 0;
+        padding: 3rem 2rem;
         grid-template-columns: auto;
         grid-column-gap: 2rem;
-        p {
-          max-width: 25rem;
-          font-size: 0.7rem;
-          line-height: 1.5rem;
-        }
       }
+
+      p {
+        max-width: 25rem;
+        font-size: 0.7rem;
+        line-height: 1.5rem;
+      }
+
       .project-img {
         width: 200px;
         margin: 2rem auto;
@@ -109,6 +124,7 @@ const ProjectsWrapper = styled.section`
       }
     }
   }
+
   @media screen and (max-width: 500px) {
     margin: 8rem auto;
     .project-language {
@@ -122,15 +138,11 @@ const ProjectsWrapper = styled.section`
       .projects-box {
         min-width: 300px;
       }
-      ul {
-        margin: 2rem 0;
-        padding: 3rem 2rem;
+
+      p {
+        margin: 2rem;
       }
-      li {
-        p {
-          margin: 2rem;
-        }
-      }
+
       .project-img {
         width: 200px;
       }
