@@ -53,7 +53,13 @@ function Projects() {
                       alt="server-less "
                     />
                   )}
-
+                  {title === '나의 다마고찌 키우기 🐹' && (
+                    <img
+                      className="project-language"
+                      src={FIREBASE}
+                      alt="firebase "
+                    />
+                  )}
                   <img
                     className="project-language"
                     src={STYLED_COMPONENTS}

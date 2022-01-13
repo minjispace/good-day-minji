@@ -7,6 +7,7 @@ const CONTACT_IMG = 'assets/contact.png';
 const MINJI_IMG = 'assets/minji.png';
 const ABOUT_IMG = 'assets/about.png';
 const MIND_MAP = 'assets/mindmap.png';
+const WEB_PET = 'assets/webpet.png';
 
 const HTML =
   'https://img.shields.io/badge/html5%20-white.svg?&style=for-the-badge&logo=html5&logoColor=red';
@@ -55,4 +56,5 @@ export {
   FIREBASE,
   VISUAL_CODE,
   STYLED_COMPONENTS,
+  WEB_PET,
 };

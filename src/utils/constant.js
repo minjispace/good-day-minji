@@ -170,5 +170,16 @@ const projectList = [
     viewLink: 'https://dream-market.netlify.app/',
     githubLink: 'https://github.com/mandy0529/dream-market',
   },
+  {
+    id: 4,
+    title: '나의 다마고찌 키우기 🐹',
+    content: 'firebase를 이용한 옛날 옛적 나의 다마고치 키우기 게임',
+    idea: '빈티지 감성의 픽셀 아트를 이용한 옷 디자인을 직접 그려 firebase를 이용해서 돈을 벌어 그 돈으로 아이템을 사보며 직접 내 캐릭터를 꾸밀 수 있는 펫 꾸미기 컨텐츠',
+    viewBtn: 'View Demo',
+    githubBtn: 'Source Code',
+    img: 'assets/webpet.png',
+    viewLink: 'https://mywebpet.shop',
+    githubLink: 'https://github.com/mandy0529/web-pet',
+  },
 ];
 export {headerList, asideIcon, candoList, projectList};
