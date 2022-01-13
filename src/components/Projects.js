@@ -39,6 +39,13 @@ function Projects() {
                     src={REACT_IMG}
                     alt="react"
                   />
+                  {title === '나의 다마고찌 키우기 🐹' && (
+                    <img
+                      className="project-language"
+                      src={FIREBASE}
+                      alt="firebase "
+                    />
+                  )}
                   {title === '당당 마켓 🥕' && (
                     <img
                       className="project-language"
@@ -53,13 +60,7 @@ function Projects() {
                       alt="server-less "
                     />
                   )}
-                  {title === '나의 다마고찌 키우기 🐹' && (
-                    <img
-                      className="project-language"
-                      src={FIREBASE}
-                      alt="firebase "
-                    />
-                  )}
+
                   <img
                     className="project-language"
                     src={STYLED_COMPONENTS}

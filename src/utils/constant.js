@@ -148,6 +148,17 @@ const projectList = [
   },
   {
     id: 2,
+    title: '나의 다마고찌 키우기 🐹',
+    content: 'firebase를 이용한 옛날 옛적 나의 다마고치 키우기 게임',
+    idea: '빈티지 감성의 픽셀 아트를 이용한 옷 디자인을 직접 그려 firebase를 이용해서 돈을 벌어 그 돈으로 아이템을 사보며 직접 내 캐릭터를 꾸밀 수 있는 펫 꾸미기 컨텐츠',
+    viewBtn: 'View Demo',
+    githubBtn: 'Source Code',
+    img: 'assets/webpet.png',
+    viewLink: 'https://mywebpet.shop',
+    githubLink: 'https://github.com/mandy0529/web-pet',
+  },
+  {
+    id: 3,
     title: '당당 마켓 🥕',
     content:
       ' 당근 마켓을 클론하여 내가 원하는 글을 작성하여 firebase 서버를 이용한 소통의 마켓 컨셉',
@@ -159,7 +170,7 @@ const projectList = [
     githubLink: 'https://github.com/mandy0529/carrot-market',
   },
   {
-    id: 3,
+    id: 4,
     title: '꿈 마켓 🌙',
     content:
       'server-less 를 이용해서 나만의 api를 만들어 몽환, 마니아층을 겨냥한 꿈마켓 컨셉',
@@ -169,17 +180,6 @@ const projectList = [
     img: 'assets/dream-market.png',
     viewLink: 'https://dream-market.netlify.app/',
     githubLink: 'https://github.com/mandy0529/dream-market',
-  },
-  {
-    id: 4,
-    title: '나의 다마고찌 키우기 🐹',
-    content: 'firebase를 이용한 옛날 옛적 나의 다마고치 키우기 게임',
-    idea: '빈티지 감성의 픽셀 아트를 이용한 옷 디자인을 직접 그려 firebase를 이용해서 돈을 벌어 그 돈으로 아이템을 사보며 직접 내 캐릭터를 꾸밀 수 있는 펫 꾸미기 컨텐츠',
-    viewBtn: 'View Demo',
-    githubBtn: 'Source Code',
-    img: 'assets/webpet.png',
-    viewLink: 'https://mywebpet.shop',
-    githubLink: 'https://github.com/mandy0529/web-pet',
   },
 ];
 export {headerList, asideIcon, candoList, projectList};
