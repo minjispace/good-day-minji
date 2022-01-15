@@ -1,4 +1,4 @@
-import {BsGithub, BsInstagram, SiNotion} from '../icons/icons';
+import {BsGithub, BsInstagram, SiNotion, SiFreecodecamp} from '../icons/icons';
 import {
   CANVA,
   CSS,
@@ -62,11 +62,11 @@ const asideIcon = [
     href: 'https://www.instagram.com/mi_nzi/',
     icons: <BsInstagram />,
   },
-  // {
-  //   id: 4,
-  //   href: 'https://www.freecodecamp.org/mi_nzi',
-  //   icons: <SiFreecodecamp />,
-  // },
+  {
+    id: 4,
+    href: 'https://www.freecodecamp.org/mi_nzi',
+    icons: <SiFreecodecamp />,
+  },
   // {
   //   id: 5,
   //   href: 'https://codepen.io/mandy0529',
