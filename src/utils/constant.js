@@ -181,5 +181,16 @@ const projectList = [
     viewLink: 'https://dream-market.netlify.app/',
     githubLink: 'https://github.com/mandy0529/dream-market',
   },
+  {
+    id: 5,
+    title: 'Liberzen 🥼',
+    content: 'Liberzen brand의 옷들을 보여주는 상용화된 웹사이트',
+    idea: '지인분의 옷 쇼핑몰 웹사이트가 필요하시다는 이야기를 듣고 좋은 기회로 상용화 한 웹사이트',
+    viewBtn: 'View Demo',
+    githubBtn: 'Source Code',
+    img: 'assets/liberzen.png',
+    viewLink: 'https://www.liberzen.com/',
+    githubLink: 'https://github.com/mandy0529/liberzen.com',
+  },
 ];
 export {headerList, asideIcon, candoList, projectList};

@@ -60,7 +60,13 @@ function Projects() {
                       alt="server-less "
                     />
                   )}
-
+                  {title === 'Liberzen 🥼' && (
+                    <img
+                      className="project-language"
+                      src={SERVER_LESS}
+                      alt="server-less "
+                    />
+                  )}
                   <img
                     className="project-language"
                     src={STYLED_COMPONENTS}
