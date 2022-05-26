@@ -32,6 +32,9 @@ const HeroWrapper = styled.section`
   @media screen and (max-width: 500px) {
     margin-top: 10rem;
   }
+  @media screen and (min-width: 3300px) {
+    margin-top: 80rem;
+  }
 `;
 
 export {HeroWrapper};
